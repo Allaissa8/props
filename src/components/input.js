@@ -11,7 +11,11 @@ function Input(props) {
         color: props.color,
         backgroundColor: props.backgroundColor,
         fontSize : '14px',
-        borderColor: "#000000"
+        borderColor: "#000000",
+        placeholder: { 
+            color: "#000000",
+            opacity: 3
+        }
     };
     const inputId = props.inputId;
     const placeHolder = props.placeHolder;
