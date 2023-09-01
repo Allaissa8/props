@@ -4,8 +4,8 @@ import Input from './components/input';
 import Button from './components/button';
 import React from 'react';
 import Image from './components/image';
-import cite from './cite.jpg'
-import random from './random.jpg'
+import cite from './assets/cite.jpg'
+import random from './assets/random.jpg'
 function App() {
 
   return (
@@ -40,6 +40,7 @@ function App() {
         <div className="input-block">
           <Input
             id="input"
+            type="number"
             borderRadius="20px"
             border="none"
             borderBottom="4px solid black"
@@ -48,6 +49,7 @@ function App() {
           />
           <Input
             id="input"
+            type="number"
             borderRadius="20px"
             border="none"
             color="#000000"
@@ -57,14 +59,14 @@ function App() {
         </div>
         <div className="input-block">
           <Input
+            type="number"
             border="4px solid black"
-
             placeHolder="Textfield 3"
             backgroundColor="#21B24B"
           />
           <Input
+            type="number"
             border="4px solid black"
-S
             placeHolder="Textfield 3"
             backgroundColor="#21B24B"
           />

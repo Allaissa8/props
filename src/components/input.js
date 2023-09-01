@@ -12,16 +12,14 @@ function Input(props) {
         backgroundColor: props.backgroundColor,
         fontSize : '14px',
         borderColor: "#000000",
-        placeholder: { 
-            color: "#000000",
-            opacity: 3
-        }
+        
     };
     const inputId = props.inputId;
     const placeHolder = props.placeHolder;
+    const inputType = props.inputType;
 
 
-    return (<input type="text" style={inputStyle} id={inputId} placeholder={placeHolder} />
+    return (<input type={inputType} style={inputStyle} id={inputId} placeholder={placeHolder} />
     )
 }
 
